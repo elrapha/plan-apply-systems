@@ -23,17 +23,17 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4 text-pas-lime">Services</h4>
             <ul className="space-y-2 text-green-200 text-sm">
-              <li><a href="#" className="hover:text-pas-lime transition">Plant Design & Build</a></li>
-              <li><a href="#" className="hover:text-pas-lime transition">Maintenance Programs</a></li>
-              <li><a href="#" className="hover:text-pas-lime transition">QA & Compliance</a></li>
+              <li><a href="#services" className="hover:text-pas-lime transition">Plant Design & Build</a></li>
+              <li><a href="#services" className="hover:text-pas-lime transition">Maintenance Programs</a></li>
+              <li><a href="#services" className="hover:text-pas-lime transition">QA & Compliance</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-semibold mb-4 text-pas-lime">Company</h4>
             <ul className="space-y-2 text-green-200 text-sm">
-              <li><a href="#" className="hover:text-pas-lime transition">About Us</a></li>
-              <li><a href="#" className="hover:text-pas-lime transition">Contact</a></li>
+              <li><a href="#about" className="hover:text-pas-lime transition">About Us</a></li>
+              <li><a href="#contact" className="hover:text-pas-lime transition">Contact</a></li>
             </ul>
           </div>
 
