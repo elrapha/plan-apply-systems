@@ -62,9 +62,6 @@ export default function Services() {
                 )}
               </div>
               <div className={`order-2 flex h-full flex-col justify-center ${index % 2 === 1 ? 'md:order-1' : ''}`}>
-                <div className="inline-block px-3 py-1 bg-amber-100 text-amber-800 rounded-full text-sm font-semibold mb-3">
-                  {service.category}
-                </div>
                 <h3 className="text-3xl font-bold text-slate-900 mb-4">{service.title}</h3>
                 <p className="text-gray-600 text-lg mb-6">
                   {service.description}
