@@ -38,8 +38,11 @@ export default function Hero() {
 
           <div className="hidden md:block">
             <div className="relative">
-              <div className="w-full h-96 bg-gradient-to-br from-amber-400 to-amber-600 rounded-2xl shadow-2xl opacity-20"></div>
-              <div className="absolute -bottom-4 -right-4 w-64 h-64 bg-amber-400 rounded-2xl opacity-5"></div>
+              <img
+                src={`${process.env.PUBLIC_URL}/home.png`}
+                alt="Processing plant facility"
+                className="w-full h-96 rounded-2xl object-cover shadow-2xl"
+              />
             </div>
           </div>
         </div>
@@ -47,4 +50,3 @@ export default function Hero() {
     </section>
   );
 }
-
