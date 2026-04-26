@@ -31,7 +31,7 @@ export default function Hero() {
                 onClick={() => document.getElementById('services').scrollIntoView({ behavior: 'smooth' })}
                 className="px-8 py-3 border-2 border-pas-lime text-pas-lime rounded font-semibold hover:bg-pas-lime hover:text-pas-forest transition"
               >
-                Our Services
+                What We Do
               </button>
             </div>
           </div>
