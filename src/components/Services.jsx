@@ -35,7 +35,7 @@ export default function Services() {
     <section id="services" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">Our Services</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-pas-forest mb-4">Our Services</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Comprehensive consulting solutions for processing plant design, maintenance, and quality assurance.
           </p>
@@ -56,13 +56,13 @@ export default function Services() {
                     loading="lazy"
                   />
                 ) : (
-                  <div className="bg-slate-900 h-[400px] rounded-lg shadow-lg flex items-center justify-center text-6xl opacity-80 md:h-[440px]">
+                  <div className="bg-pas-forest h-[400px] rounded-lg shadow-lg flex items-center justify-center text-6xl opacity-80 md:h-[440px]">
                     {service.icon}
                   </div>
                 )}
               </div>
               <div className={`order-2 flex h-full flex-col justify-center ${index % 2 === 1 ? 'md:order-1' : ''}`}>
-                <h3 className="text-3xl font-bold text-slate-900 mb-4">{service.title}</h3>
+                <h3 className="text-3xl font-bold text-pas-forest mb-4">{service.title}</h3>
                 <p className="text-gray-600 text-lg mb-6">
                   {service.description}
                 </p>
@@ -73,21 +73,21 @@ export default function Services() {
 
         {/* Trust Bar */}
         <div className="mt-20 border-t border-gray-200 pt-12">
-          <p className="text-center text-slate-900 font-semibold mb-6">We work with industry standards and sectors:</p>
+          <p className="text-center text-pas-forest font-semibold mb-6">We work with industry standards and sectors:</p>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h4 className="font-bold text-slate-900 mb-3">Industries Served</h4>
+              <h4 className="font-bold text-pas-forest mb-3">Industries Served</h4>
               <div className="flex flex-wrap gap-2">
-                <span className="px-4 py-2 bg-gray-100 text-slate-900 rounded-full text-sm">Food & Beverage</span>
-                <span className="px-4 py-2 bg-gray-100 text-slate-900 rounded-full text-sm">Chemical & Pharmaceutical</span>
-                <span className="px-4 py-2 bg-gray-100 text-slate-900 rounded-full text-sm">Industrial Manufacturing</span>
+                <span className="px-4 py-2 bg-gray-100 text-pas-forest rounded-full text-sm">Food & Beverage</span>
+                <span className="px-4 py-2 bg-gray-100 text-pas-forest rounded-full text-sm">Chemical & Pharmaceutical</span>
+                <span className="px-4 py-2 bg-gray-100 text-pas-forest rounded-full text-sm">Industrial Manufacturing</span>
               </div>
             </div>
             <div>
-              <h4 className="font-bold text-slate-900 mb-3">Standards & Certifications</h4>
+              <h4 className="font-bold text-pas-forest mb-3">Standards & Certifications</h4>
               <div className="flex flex-wrap gap-2">
-                <span className="px-4 py-2 bg-gray-100 text-slate-900 rounded-full text-sm">ISO</span>
-                <span className="px-4 py-2 bg-gray-100 text-slate-900 rounded-full text-sm">HACCP</span>
+                <span className="px-4 py-2 bg-gray-100 text-pas-forest rounded-full text-sm">ISO</span>
+                <span className="px-4 py-2 bg-gray-100 text-pas-forest rounded-full text-sm">HACCP</span>
               </div>
             </div>
           </div>
