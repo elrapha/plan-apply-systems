@@ -21,7 +21,7 @@ export default function Contact() {
     // Create mailto link
     const subject = `Enquiry from ${formData.name}`;
     const body = `Name: ${formData.name}\nEmail: ${formData.email}\nCompany: ${formData.company}\n\nMessage:\n${formData.message}`;
-    window.location.href = `mailto:hello@plan-apply-systems.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = `mailto:hello@planapplysystems.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     setFormData({ name: '', email: '', company: '', message: '' });
   };
 
@@ -110,8 +110,8 @@ export default function Contact() {
               <div className="text-center">
                 <div className="text-3xl mb-2">📧</div>
                 <h3 className="font-semibold text-pas-forest mb-1">Email</h3>
-                <a href="mailto:hello@plan-apply-systems.com" className="text-pas-leaf hover:text-pas-forest">
-                  hello@plan-apply-systems.com
+                <a href="mailto:hello@planapplysystems.com" className="text-pas-leaf hover:text-pas-forest">
+                  hello@planapplysystems.com
                 </a>
               </div>
               <div className="text-center">

@@ -51,9 +51,9 @@ export default function Footer() {
           <p className="text-green-200 mb-4 md:mb-0 text-sm">
             © {currentYear} Plan Apply Systems. All rights reserved.
           </p>
-          <a href="mailto:hello@plan-apply-systems.com"
+          <a href="mailto:hello@planapplysystems.com"
             className="text-green-200 hover:text-pas-lime transition text-sm">
-            hello@plan-apply-systems.com
+            hello@planapplysystems.com
           </a>
         </div>
       </div>
