@@ -106,7 +106,7 @@ export default function Contact() {
           </form>
 
           <div className="border-t border-gray-200 pt-8">
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-2">
               <div className="text-center">
                 <div className="text-3xl mb-2">📧</div>
                 <h3 className="font-semibold text-pas-forest mb-1">Email</h3>
@@ -115,14 +115,9 @@ export default function Contact() {
                 </a>
               </div>
               <div className="text-center">
-                <div className="text-3xl mb-2">📱</div>
-                <h3 className="font-semibold text-pas-forest mb-1">Phone</h3>
-                <p className="text-gray-600">+1 (555) 123-4567</p>
-              </div>
-              <div className="text-center">
                 <div className="text-3xl mb-2">📍</div>
                 <h3 className="font-semibold text-pas-forest mb-1">Location</h3>
-                <p className="text-gray-600">North America</p>
+                <p className="text-gray-600">Europe</p>
               </div>
             </div>
           </div>
