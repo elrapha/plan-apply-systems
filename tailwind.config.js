@@ -7,10 +7,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#f59e0b',
-        slate: {
-          900: '#0f172a',
-        }
+        pas: {
+          forest:  '#0D472F',
+          leaf:    '#298246',
+          lime:    '#A3E34C',
+        },
       },
     },
   },
