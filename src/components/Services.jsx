@@ -66,9 +66,6 @@ export default function Services() {
                 <p className="text-gray-600 text-lg mb-6">
                   {service.description}
                 </p>
-                <button className="inline-block px-6 py-2 border-2 border-amber-400 text-amber-600 rounded font-semibold hover:bg-amber-50 transition">
-                  Learn More
-                </button>
               </div>
             </div>
           ))}
