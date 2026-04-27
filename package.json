@@ -17,9 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -42,7 +40,6 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4.2.4",
     "autoprefixer": "^10.5.0",
-    "gh-pages": "^6.3.0",
     "postcss": "^8.5.12",
     "tailwindcss": "^3.4.19"
   }
