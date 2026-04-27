@@ -10,7 +10,7 @@ export default function Contact() {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
       [name]: value
     }));
@@ -18,9 +18,8 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Create mailto link
-    const subject = `Enquiry from ${formData.name}`;
-    const body = `Name: ${formData.name}\nEmail: ${formData.email}\nCompany: ${formData.company}\n\nMessage:\n${formData.message}`;
+    const subject = `Project Enquiry from ${formData.name}`;
+    const body = `Name: ${formData.name}\nEmail: ${formData.email}\nCompany: ${formData.company}\n\nProject Details:\n${formData.message}`;
     window.location.href = `mailto:hello@planapplysystems.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     setFormData({ name: '', email: '', company: '', message: '' });
   };
@@ -30,18 +29,19 @@ export default function Contact() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-pas-forest mb-4">Get in Touch</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-pas-forest mb-4">Let's Work Together</h2>
             <p className="text-xl text-gray-600">
-              Ready to discuss your processing plant project? We'd love to hear from you.
+              Partner with us to streamline your processes, improve efficiency, and embrace the future of automation.
+            </p>
+            <p className="text-gray-600 mt-3">
+              Contact us today to discuss your project needs.
             </p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-6 mb-12">
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <label className="block text-sm font-semibold text-pas-forest mb-2">
-                  Full Name *
-                </label>
+                <label className="block text-sm font-semibold text-pas-forest mb-2">Full Name *</label>
                 <input
                   type="text"
                   name="name"
@@ -53,9 +53,7 @@ export default function Contact() {
                 />
               </div>
               <div>
-                <label className="block text-sm font-semibold text-pas-forest mb-2">
-                  Email Address *
-                </label>
+                <label className="block text-sm font-semibold text-pas-forest mb-2">Email Address *</label>
                 <input
                   type="email"
                   name="email"
@@ -69,9 +67,7 @@ export default function Contact() {
             </div>
 
             <div>
-              <label className="block text-sm font-semibold text-pas-forest mb-2">
-                Company Name
-              </label>
+              <label className="block text-sm font-semibold text-pas-forest mb-2">Company Name</label>
               <input
                 type="text"
                 name="company"
@@ -83,9 +79,7 @@ export default function Contact() {
             </div>
 
             <div>
-              <label className="block text-sm font-semibold text-pas-forest mb-2">
-                Message *
-              </label>
+              <label className="block text-sm font-semibold text-pas-forest mb-2">Project Requirements *</label>
               <textarea
                 name="message"
                 value={formData.message}
@@ -93,7 +87,7 @@ export default function Contact() {
                 required
                 rows="5"
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-pas-leaf focus:ring-2 focus:ring-[#c5eea0] transition resize-none"
-                placeholder="Tell us about your project..."
+                placeholder="Tell us about your process, automation, or validation project..."
               ></textarea>
             </div>
 
@@ -101,12 +95,12 @@ export default function Contact() {
               type="submit"
               className="w-full px-8 py-3 bg-pas-lime text-pas-forest font-semibold rounded-lg hover:brightness-110 transition transform hover:scale-105"
             >
-              Send Message
+              Contact Us Today
             </button>
           </form>
 
           <div className="border-t border-gray-200 pt-8">
-            <div className="grid md:grid-cols-2">
+            <div className="grid md:grid-cols-2 gap-8">
               <div className="text-center">
                 <div className="text-3xl mb-2">📧</div>
                 <h3 className="font-semibold text-pas-forest mb-1">Email</h3>
@@ -115,9 +109,9 @@ export default function Contact() {
                 </a>
               </div>
               <div className="text-center">
-                <div className="text-3xl mb-2">📍</div>
-                <h3 className="font-semibold text-pas-forest mb-1">Location</h3>
-                <p className="text-gray-600">Europe</p>
+                <div className="text-3xl mb-2">🌍</div>
+                <h3 className="font-semibold text-pas-forest mb-1">Industries Supported</h3>
+                <p className="text-gray-600">Pharmaceuticals, Oil & Gas, Manufacturing</p>
               </div>
             </div>
           </div>

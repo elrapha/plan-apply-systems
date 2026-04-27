@@ -16,33 +16,35 @@ export default function Footer() {
               <h3 className="text-lg font-bold">Plan Apply Systems</h3>
             </div>
             <p className="text-green-200 text-sm">
-              Expert consultancy for processing plant design, maintenance, and quality assurance.
+              Engineering intelligent process and automation solutions for modern industry.
             </p>
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4 text-pas-lime">Services</h4>
+            <h4 className="font-semibold mb-4 text-pas-lime">Core Services</h4>
             <ul className="space-y-2 text-green-200 text-sm">
-              <li><a href="#services" className="hover:text-pas-lime transition">Plant Design & Build</a></li>
-              <li><a href="#services" className="hover:text-pas-lime transition">Maintenance Programs</a></li>
-              <li><a href="#services" className="hover:text-pas-lime transition">QA & Compliance</a></li>
+              <li><a href="#services" className="hover:text-pas-lime transition">Process Engineering</a></li>
+              <li><a href="#services" className="hover:text-pas-lime transition">Industrial Automation</a></li>
+              <li><a href="#services" className="hover:text-pas-lime transition">Digital & Smart Manufacturing</a></li>
+              <li><a href="#services" className="hover:text-pas-lime transition">Validation & Compliance</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-semibold mb-4 text-pas-lime">Company</h4>
             <ul className="space-y-2 text-green-200 text-sm">
-              <li><a href="#about" className="hover:text-pas-lime transition">About Us</a></li>
-              <li><a href="#contact" className="hover:text-pas-lime transition">Contact</a></li>
+              <li><a href="#about" className="hover:text-pas-lime transition">Who We Are</a></li>
+              <li><a href="#about" className="hover:text-pas-lime transition">Why Choose Us</a></li>
+              <li><a href="#contact" className="hover:text-pas-lime transition">Let's Work Together</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-semibold mb-4 text-pas-lime">Industries</h4>
             <ul className="space-y-2 text-green-200 text-sm">
-              <li>Food & Beverage</li>
-              <li>Chemical & Pharmaceutical</li>
-              <li>Industrial Manufacturing</li>
+              <li>Pharmaceuticals</li>
+              <li>Oil & Gas</li>
+              <li>Manufacturing</li>
             </ul>
           </div>
         </div>

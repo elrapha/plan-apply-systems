@@ -23,7 +23,7 @@ export default function Navigation() {
             </div>
             <div>
               <h1 className="text-xl font-bold text-white">Plan Apply Systems</h1>
-              <p className="text-xs text-pas-lime">Processing Plant Consultancy</p>
+              <p className="text-xs text-pas-lime">Process & Automation Company</p>
             </div>
           </div>
 
